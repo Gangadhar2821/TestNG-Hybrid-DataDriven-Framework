@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-12T12:47:02 IST" name="Regression Suite" finished-at="2025-06-12T12:47:34 IST" duration-ms="32542">
+    <groups>
+    </groups>
+    <test started-at="2025-06-12T12:47:02 IST" name="Regression Test" finished-at="2025-06-12T12:47:34 IST" duration-ms="32542">
+      <class name="cogmentoCRM.Web.testcases.CreateNewContactTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:02 IST" name="setup" finished-at="2025-06-12T12:47:09 IST" duration-ms="7836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:09 IST" name="login" finished-at="2025-06-12T12:47:10 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createNewContact(java.util.Map)[pri:1, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:11 IST" name="createNewContact" data-provider="ExcelTestData" finished-at="2025-06-12T12:47:30 IST" duration-ms="19250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{firstName=@@str(12), lastName=@@str(4), middleName=@@str(3), company=xyz, tags=, email=xyz@gmail.com, category=Contact, status=Active, description=@@str(20), social Channel=Facebook, channel link=https://ui.cogmento.com/contacts/new/, timeZone=, address=@@str(6), number=@@mob, position=@@str(6), department=@@str(6), supervisor=@@str(6), assistant=@@str(6), referred By=@@str(6), source=Google, Do not call=Yes, Do not email=, Do not text=, Bday Date=Sat Nov 22 00:00:00 IST 1997, identifier=@@str(4), image=D:\\Automation_Redefined\\Cogmento-CRM-Web\\testdata\\img1.jpg, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContact -->
+        <test-method signature="validateCreatedContact(java.util.Map)[pri:2, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:30 IST" name="validateCreatedContact" data-provider="ExcelTestData" finished-at="2025-06-12T12:47:33 IST" depends-on-methods="cogmentoCRM.Web.testcases.CreateNewContactTest.createNewContact" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{search=First Name, operator=Equals, firstName=@@str(6)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreatedContact -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:33 IST" name="logout" finished-at="2025-06-12T12:47:34 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:cogmentoCRM.Web.testcases.CreateNewContactTest@130dca52]" started-at="2025-06-12T12:47:34 IST" name="tearDown" finished-at="2025-06-12T12:47:34 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cogmentoCRM.Web.testcases.CreateNewContactTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

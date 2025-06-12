@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<listeners>
+		<listener class-name="cogmentoCRM.Web.listeners.CogmentoCRM_Listener" />
+	</listeners>
+	<test thread-count="5" name="Regression Test" parallel="true">
+		<classes>
+			<class name="cogmentoCRM.Web.testcases.CreateNewContactTest" />
+		</classes>
+	</test> <!--
+	Regression Testing -->
+</suite> <!--
+Regression Suite -->
