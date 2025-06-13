@@ -79,11 +79,11 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 Step 1: Clone the Repository
 https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework.git
 
-Step 2: Navigate to the project directory and install dependencies
-mvn clean install
+Step 2: Navigate to the project directory and install dependencies and run 
+-"mvn clean install" command
 
-Step 3: Run the project using the batch file
-run_tests.bat (click on the batch file)
+Step 3: Run the project using the batch file  
+-"run_tests.bat" (click on the batch file)
 
 
 ---
