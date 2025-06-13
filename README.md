@@ -1,4 +1,4 @@
-# 🚀 TestNG-Hybrid-DataDriven-Framework
+# 🚀 TestNG-DataDriven-Hybrid-Framework
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Java](https://img.shields.io/badge/Java-21-blue)
@@ -7,7 +7,7 @@
 
 ## 📌 Project Overview:
 
-**TestNG-Hybrid-DataDriven-Framework** is a robust and scalable **UI automation framework** built with a **hybrid architecture**. It combines **TestNG**, **Page Object Model (POM)**, **Data-Driven Testing (powered by Excel)**, and industry best practices like reusable components, centralized configuration, modular design, and advanced logging/reporting.
+**TestNG-DataDriven-Hybrid-Framework** is a robust and scalable **UI automation framework** built with a **hybrid architecture**. It combines **TestNG**, **Page Object Model (POM)**, **Data-Driven Testing (powered by Excel)**, and industry best practices like reusable components, centralized configuration, modular design, and advanced logging/reporting.
 
 Designed for **maintainability**, **reusability**, and **flexibility**, the framework is ideal for testing web applications across browsers and environments with ease.
 
@@ -77,7 +77,7 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ## Steps:
 Step 1: Clone the Repository
-https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework.git
+https://github.com/Gangadhar2821/TestNG-DataDriven-Hybrid-Framework.git
 
 Step 2: Navigate to the project directory and install dependencies and run 
 "mvn clean install" command
