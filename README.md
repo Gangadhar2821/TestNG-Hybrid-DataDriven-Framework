@@ -109,4 +109,5 @@ run_tests.bat (click on the batch file)
 ---
 ## 💡 Future Enhancements
 🔧 Integration with Jenkins CI for Continuous Integration & Scheduling
+
 📊 Inclusion of Allure Reports for advanced test visualization
