@@ -93,23 +93,24 @@ run_tests.bat (click on the batch file)
 
 🪵 Logs are captured using Log4j and saved in the logs/ directory.
 
-📷 Screenshots are automatically taken on test failure to enhance debugging and traceability.
+📷 Screenshots are automatically taken on test failure to enhance debugging and traceability and made available in errorshots/ directory .
 
 
 ---
 
-## 👨‍💻 Developed By:
-
-    Gangadhar B
+## 👨‍💻 Developed By:  
+### Gangadhar B
 💼 Software Engineer
+
 📧 gangadhar2821@gmail.com
-🔗 LinkedIn Profile 
+
+🔗 XXXX 
 
 
 ---
 ## 💡 Future Enhancements:
-🔧 Integration with Jenkins CI for Continuous Integration & Scheduling
+🔧 Integration with Jenkins CI for Continuous Integration & Scheduling.
 
-📊 Inclusion of Allure Reports for advanced test visualization
+📊 Inclusion of Allure Reports for advanced test visualization.
 
 ---
