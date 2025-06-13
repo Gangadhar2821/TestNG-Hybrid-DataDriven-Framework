@@ -75,19 +75,17 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 - Install **Maven**
 - Set environment variables: `JAVA_HOME`, `MAVEN_HOME`, and update `PATH`
 
-## 💻 Steps
 
-### 🔹 Step 1: Clone the repository
+Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/TestNG-Hybrid-DataDriven-Framework.git
 
-### 🔹 Step 2: Navigate to the project directory and install dependencies
+Step 2: Navigate to the project directory and install dependencies
 cd TestNG-Hybrid-DataDriven-Framework
 mvn clean install
 
-### 🔹 Step 3:Run the project using the batch file
+Step 3:Run the project using the batch file
 run_tests.bat (click on the batch file)
-
 
 
 ---
