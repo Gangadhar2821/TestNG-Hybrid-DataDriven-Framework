@@ -83,7 +83,7 @@ Step 2: Navigate to the project directory and install dependencies and run
 "mvn clean install" command
 
 Step 3: Run the project using the batch file  
-"run_tests.bat" (click on the batch file)
+        "run_tests.bat" (click on the batch file)
 
 
 ---
