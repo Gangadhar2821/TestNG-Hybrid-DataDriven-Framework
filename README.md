@@ -5,7 +5,7 @@
 ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
 ![Maven](https://img.shields.io/badge/Maven-3.9.9-orange)
 
-## 📌 Project Overview
+## 📌 Project Overview:
 
 **TestNG-Hybrid-DataDriven-Framework** is a robust and scalable **UI automation framework** built with a **hybrid architecture**. It combines **TestNG**, **Page Object Model (POM)**, **Data-Driven Testing (powered by Excel)**, and industry best practices like reusable components, centralized configuration, modular design, and advanced logging/reporting.
 
@@ -13,7 +13,7 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Technologies Used:
 
 - ☕ Java 21
 - 🌐 Selenium WebDriver
@@ -26,7 +26,7 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ---
 
-### 🔨 Implemented Features
+### 🔨 Implemented Features:
 
 > The following core functionalities were **designed and developed from scratch** as part of the framework implementation:
 
@@ -67,9 +67,9 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ---
 
-## ▶️ How To Run the Project
+## ▶️ How To Run the Project:
 
-### ✅ Prerequisites
+### ✅ Prerequisites:
 
 - Install **Java JDK 21**
 - Install **Maven**
@@ -77,7 +77,7 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ## Steps:
 Step 1: Clone the Repository
-git clone https://github.com/your-username/TestNG-Hybrid-DataDriven-Framework.git
+git clone https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework.git
 
 Step 2: Navigate to the project directory and install dependencies
 cd TestNG-Hybrid-DataDriven-Framework
@@ -98,7 +98,7 @@ run_tests.bat (click on the batch file)
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Developed By:
 
     Gangadhar B
 💼 Software Engineer
@@ -107,7 +107,9 @@ run_tests.bat (click on the batch file)
 
 
 ---
-## 💡 Future Enhancements
+## 💡 Future Enhancements:
 🔧 Integration with Jenkins CI for Continuous Integration & Scheduling
 
 📊 Inclusion of Allure Reports for advanced test visualization
+
+---
