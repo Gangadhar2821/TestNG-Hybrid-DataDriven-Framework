@@ -77,7 +77,8 @@ Designed for **maintainability**, **reusability**, and **flexibility**, the fram
 
 ## Steps:
 Step 1: Clone the Repository
-git clone https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework.git
+git clone
+https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework.git
 
 Step 2: Navigate to the project directory and install dependencies
 cd TestNG-Hybrid-DataDriven-Framework
