@@ -1,49 +1,114 @@
-# 🧪 TestNG Hybrid Data-Driven Framework
+# 🚀 TestNG-Hybrid-DataDriven-Framework
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework/actions)
-![Java](https://img.shields.io/badge/java-21-blue)
-![Maven](https://img.shields.io/badge/maven-3.9.9-orange)
-![TestNG](https://img.shields.io/badge/TestNG-7.11.0-blueviolet)
-![Selenium](https://img.shields.io/badge/Selenium-4.32.0-yellowgreen)
-![ExtentReports](https://img.shields.io/badge/ExtentReports-5.1.2-blue)
-![ApachePOI](https://img.shields.io/badge/Apache_POI-5.4.1-9cf)
-![Log4j](https://img.shields.io/badge/Log4j-2.24.3-red)
-![License](https://img.shields.io/github/license/Gangadhar2821/TestNG-Hybrid-DataDriven-Framework)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![Maven](https://img.shields.io/badge/Maven-3.9.9-orange)
 
-A scalable and maintainable automation testing framework using **TestNG**, **Selenium**, and **Apache POI**, structured with **Page Object Model (POM)** and designed to support **data-driven testing** from Excel sheets.
+## 📌 Project Overview
 
----
+**TestNG-Hybrid-DataDriven-Framework** is a robust and scalable **UI automation framework** built with a **hybrid architecture**. It combines **TestNG**, **Page Object Model (POM)**, **Data-Driven Testing (powered by Excel)**, and industry best practices like reusable components, centralized configuration, modular design, and advanced logging/reporting.
 
-## ✨ Features
-
-- **Hybrid & Data-Driven**: Leverages TestNG and Excel-based data input.
-- **Page Object Model (POM)**: Modular design for better test maintenance.
-- **Central WebDriver Management**: Singleton Factory design pattern.
-- **Environment Configurations**: Centralized in `config.properties`.
-- **Reusable UI Actions**: Supports date pickers, alerts, and more.
-- **Explicit Waits**: Ensures stable element interactions.
-- **Screenshot Capture**: On test failure, saved in `errorshots/`.
-- **Cross-Browser & Headless Mode**: For flexible execution.
-- **Parallel Execution**: Enabled via TestNG XML suite.
-- **Rich Extent Reports**: Timestamped HTML reports.
-- **Logging**: Powered by Log4j (console + file logging).
-- **Simple Execution**: `run_tests.bat` for quick test runs.
+Designed for **maintainability**, **reusability**, and **flexibility**, the framework is ideal for testing web applications across browsers and environments with ease.
 
 ---
 
-## ⚙️ Tech Stack
+## 🧰 Technologies Used
 
-| Tool / Library        | Version |
-|-----------------------|---------|
-| Java                  | 21      |
-| Maven                 | 3.9.9   |
-| Selenium WebDriver    | 4.32.0  |
-| TestNG                | 7.11.0  |
-| Apache POI            | 5.4.1   |
-| Log4j                 | 2.24.3  |
-| AspectJ Weaver        | 1.9.22  |
-| ExtentReports         | 5.1.2   |
+- ☕ Java 21
+- 🌐 Selenium WebDriver
+- 🧪 TestNG
+- 🔧 Maven
+- 📄 Apache POI (Excel-based Data)
+- 📊 Extent Reports
+- 🪵 Log4j
+- 🧪 TestNG Listeners
 
 ---
+
+### 🔨 Implemented Features
+
+> The following core functionalities were **designed and developed from scratch** as part of the framework implementation:
+
+- ✅ **Custom WebDriver Factory** using Singleton Design Pattern for optimal driver instance management.
+
+- 📦 **Page Object Model (POM)** structure with page-wise encapsulation and modular method definitions.
+
+- 🔁 **Reusable Action Layer**  
+  Developed a centralized `ElementActions` class to perform all UI operations like clicks, inputs, waits, alert handling, frame switching, and date picker logic.
+
+- 📊 **Excel-based Data-Driven Testing**  
+  Integrated Apache POI to fetch test data dynamically using `Map<String, String>` for cleaner, scalable parameterization.
+
+- 🧪 **TestNG-based Test Orchestration**  
+  Efficient use of annotations (`@BeforeClass`, `@DataProvider`, `@Test`, `@AfterMethod`) to control test flow and reusability.
+
+- 🔄 **Listeners and Failure Handling**  
+  Implemented custom TestNG listeners for test monitoring, with auto-screenshot capture on test failure.
+
+- ⚙️ **Configurable Environment Setup**  
+  Externalized configurations like URL, browser, headless mode using a `config.properties` file.
+
+- 🧪 **Suite and Parallel Execution**  
+  Enabled test grouping and parallel execution via `testng.xml` for batch and cross-browser runs.
+
+- 🌍 **Cross-Browser & Headless Execution Support**  
+  Designed flexible browser configurations for Chrome, Firefox (UI & headless).
+
+- 🪵 **Log4j Logging Integration**  
+  Implemented multi-level logging (info, debug, error) for better debugging and traceability.
+
+- 📈 **Integrated Extent Reports**  
+  Generated rich HTML test reports with screenshot support on failure and status highlighting.
+
+- ▶️ **One-Click Test Execution**  
+  Created a `.bat` file to trigger test execution seamlessly from command line or CI tool.
+
+
+---
+
+## ▶️ How To Run the Project
+
+### ✅ Prerequisites
+
+- Install **Java JDK 21**
+- Install **Maven**
+- Set environment variables: `JAVA_HOME`, `MAVEN_HOME`, and update `PATH`
+
+### 🚀 Steps
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/your-username/TestNG-Hybrid-DataDriven-Framework.git
+
+# Step 2: Navigate to project directory 
+cd TestNG-Hybrid-DataDriven-Framework
+mvn clean install
+
+# Step 3: Run the project using the batch file
+run_tests.bat
+
+
+### 📸 Reports & Logs
+
+- 📈 **HTML Reports** generated by **Extent Reports** after each test run are stored in the `reports/` directory, with **timestamped folders** for each execution.
+- 🪵 **Logs** are captured using **Log4j** and saved in the `logs/` directory.
+- 📷 **Screenshots** are automatically taken on test failure to enhance debugging and traceability.
+
+---
+
+### 👨‍💻 Developed By
+
+**Gangadhar B**  
+💼 Software Engineer  
+📧 [gangadhar2821@gmail.com](mailto:gangadhar2821@gmail.com)  
+🔗 [LinkedIn Profile](https://your-linkedin-url.com) 
+
+---
+
+### 💡 Future Enhancements
+
+- 🔧 Integration with Jenkins CI for Continuous Integration & Scheduling
+- 📊 Inclusion of Allure Reports for advanced test visualization
 
 
